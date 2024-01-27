@@ -26,6 +26,7 @@ exports.ordersController = {
             if (item.id == id) {
                 item.id=id;
                 item.price=price;
+                item.dishID=dishID;
                 item.restaurandId=restaurandId;
             }
             return item;
